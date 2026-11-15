@@ -1,16 +1,25 @@
-# React + Vite
+# 🛒 E-Commerce Storefront
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, fully responsive E-Commerce Storefront built to demonstrate frontend development skills, global state management, and API integration.
 
-Currently, two official plugins are available:
+**Live Demo:** https://ecommerce-react-app-woad.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Framework:** React.js (Vite)
+- **Styling:** Tailwind CSS
+- **State Management:** Context API
+- **Routing:** React Router DOM
+- **Icons:** Lucide React
+- **Data Source:** FakeStoreAPI
 
-## React Compiler
+## ✨ Key Features
+- **Dynamic Product Grid:** Fetches and displays products in real-time from an external API.
+- **Product Details Page:** Dedicated dynamic routes for individual product viewing.
+- **Global Shopping Cart:** Add, remove, and update items across the app without losing state.
+- **Fully Responsive:** Mobile-first design that scales perfectly to tablets and desktop screens.
+- **Loading & Error States:** Smooth UI handling during API data fetching.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 How to run locally
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
